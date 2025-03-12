@@ -34,7 +34,7 @@ function ModalWrapper({ children }: Props) {
     >
       <div
         className={
-          'elative absolute flex max-h-screen w-[780px] max-w-full transform flex-col overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all data-closed:translate-y-4 data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in sm:my-8 sm:w-full sm:max-w-lg sm:data-closed:translate-y-0 sm:data-closed:scale-95'
+          'absolute right-4 left-4 flex max-h-screen max-w-full transform flex-col overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all data-closed:translate-y-4 data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in sm:right-auto sm:left-auto sm:my-8 sm:w-full sm:max-w-lg sm:data-closed:translate-y-0 sm:data-closed:scale-95'
         }
         style={{ boxShadow: '-15px 4px 28px 0px rgba(0, 0, 0, 0.08)' }}
       >
