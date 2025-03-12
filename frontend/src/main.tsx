@@ -9,7 +9,8 @@ import './index.css';
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      retry: 2,
+      // refetchOnWindowFocus: false, // By default data is refetched when window gets focus
+      retry: 2, // Number of retries before failing the query
       staleTime: 1000 * 60 * 1, // 1 minutes
     },
   },
