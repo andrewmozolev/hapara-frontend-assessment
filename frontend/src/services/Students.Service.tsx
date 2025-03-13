@@ -1,6 +1,5 @@
 import config from 'config';
-import { getRequestOptions } from 'helpers/RequestHelper';
-import { handleResponse } from 'interfaces/Requests';
+import { getRequestOptions, handleResponse } from 'helpers/RequestHelper';
 import { StudentDetailsResponse, StudentsResponse } from 'interfaces/Students';
 
 export const StudentsService = {
